@@ -1,0 +1,46 @@
+{
+  "name": "ontegra",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.0",
+    "@lottiefiles/lottie-interactivity": "^1.6.2",
+    "@studio-freight/lenis": "^1.0.39",
+    "@types/react-slick": "^0.23.13",
+    "framer-motion": "^11.0.8",
+    "gsap": "^3.12.5",
+    "lottie-react": "^2.4.0",
+    "lottie-web": "^5.12.2",
+    "next": "14.1.0",
+    "next-transpile-modules": "^10.0.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-responsive": "^9.0.2",
+    "react-slick": "^0.30.2",
+    "react-slideshow-image": "^4.3.1",
+    "react-use-scroll-snap": "^1.0.0",
+    "scrollmagic": "^2.0.8",
+    "sharp": "^0.33.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.0.7",
+    "zustand": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
