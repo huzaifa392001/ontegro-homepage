@@ -15,7 +15,7 @@
 }
 
 .introAnim {
-  @apply translate-y-[50px] opacity-0;
+  @apply translate-y-[100%] opacity-0;
 }
 
 .secondContent {

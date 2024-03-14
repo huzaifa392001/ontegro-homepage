@@ -150,37 +150,38 @@
 
 // export default Home;
 
-"use client";
-import React, { useEffect } from "react";
-import Header from "./components/header/header";
-import { Footer } from "./components/footer/Footer";
-import { useTriggerStore } from "@/store/Trigger-Store";
-import IntroSection from "./pages/homeSections/IntroSection";
-import Redefining from "./pages/homeSections/Redefining";
-import Integration from "./pages/homeSections/Integration";
-import TechSection from "./pages/homeSections/TechSection";
-import Team from "./pages/homeSections/Team";
-import Expertise from "./pages/homeSections/Expertise";
-import ISOS from "./pages/homeSections/ISOStandards";
-import TrustedByTheBest from "./pages/homeSections/TrustedByTheBest";
-import AwardSection from "./pages/homeSections/AwardSection";
-import GreenSection from "./pages/homeSections/GreenSection";
-import "./globals.css";
+'use client'
+import React, { useEffect } from 'react'
+import Header from './components/header/header'
+import { Footer } from './components/footer/Footer'
+import { useTriggerStore } from '@/store/Trigger-Store'
+import IntroSection from './pages/homeSections/IntroSection'
+import Redefining from './pages/homeSections/Redefining'
+import Integration from './pages/homeSections/Integration'
+import TechSection from './pages/homeSections/TechSection'
+import Team from './pages/homeSections/Team'
+import Expertise from './pages/homeSections/Expertise'
+import ISOS from './pages/homeSections/ISOStandards'
+import TrustedByTheBest from './pages/homeSections/TrustedByTheBest'
+import AwardSection from './pages/homeSections/AwardSection'
+import GreenSection from './pages/homeSections/GreenSection'
+import './globals.css'
 
 const Home = () => {
-  const trigger = useTriggerStore((state: any) => state.trigger);
-  const setHeader = useTriggerStore((state: any) => state.setHeader);
+  const trigger = useTriggerStore((state: any) => state.trigger)
+  const setHeader = useTriggerStore((state: any) => state.setHeader)
 
   return (
     <div>
       <main className="">
         <Header color={false} />
+
         <IntroSection />
         <Redefining />
         <Integration />
-        {/* <TechSection />
+        <TechSection />
         <Team />
-        <Expertise />
+        {/* <Expertise />
         <ISOS />
         <TrustedByTheBest />
         <AwardSection />
@@ -188,7 +189,7 @@ const Home = () => {
         <Footer /> */}
       </main>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
