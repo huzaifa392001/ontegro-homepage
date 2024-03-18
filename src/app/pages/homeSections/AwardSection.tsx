@@ -24,7 +24,7 @@ const AwardSection = () => {
     //             // scroller: ".absolute.inset-0",
     //             start: "top 40%",
     //             end: "center center",
-    //             // markers: true,
+    //             // markers: false,
     //             scrub: 1,
     //             toggleActions: "play none none reverse",
     //         },

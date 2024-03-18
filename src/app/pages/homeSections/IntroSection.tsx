@@ -22,6 +22,9 @@ const IntroSection = () => {
     () => {
       let introTl = gsap.timeline();
       let tl = gsap.timeline({
+        defaults: {
+          duration: 1.25,
+        },
         scrollTrigger: {
           trigger: introRef.current,
           pin: introRef.current,
